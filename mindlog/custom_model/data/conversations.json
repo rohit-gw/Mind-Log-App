@@ -1,0 +1,266 @@
+{
+  "intents": [
+    {
+      "tag": "tired",
+      "patterns": [
+        "I'm so tired today", "feeling exhausted", "completely drained",
+        "no energy at all", "burned out", "worn out", "so fatigued",
+        "running on empty", "I haven't slept well", "I'm exhausted from work",
+        "I feel like I have nothing left", "today wiped me out",
+        "I barely got through the day", "I'm mentally exhausted",
+        "physical and emotional exhaustion", "I just want to sleep",
+        "I can't keep up with everything", "overtired and overwhelmed"
+      ],
+      "responses": [
+        "That kind of bone-deep tiredness is real — your body and mind are telling you something. What's been weighing on you the most?",
+        "Running on empty for a while has a way of catching up all at once. Is there anything specific that's been draining your energy lately?",
+        "It sounds like you've been giving a lot of yourself lately. When did you last feel genuinely rested?",
+        "That exhaustion you're describing goes beyond just needing sleep, doesn't it? What part of your day feels the heaviest?",
+        "Sometimes tiredness like that is the body's way of asking for a pause. What would rest actually look like for you right now?",
+        "Feeling that drained can make everything feel harder than it is. What's one thing you could let go of tomorrow, even just for a day?",
+        "I hear you — that kind of exhaustion seeps into everything. Has anything helped you recharge lately, even a little?",
+        "There's a difference between tired from doing too much and tired from carrying too much. Which one feels closer to where you are?",
+        "The fact that you're here writing about it shows you're still trying to process it all. What would feel like a small relief right now?"
+      ]
+    },
+    {
+      "tag": "anxious",
+      "patterns": [
+        "I feel so anxious", "I'm really stressed out", "can't stop worrying",
+        "feeling nervous about everything", "overwhelming anxiety", "panic attack",
+        "I'm so stressed", "anxiety is bad today", "everything feels uncertain",
+        "I keep overthinking", "I can't calm down", "mind won't stop racing",
+        "feeling on edge", "nervous wreck", "stressed about the future",
+        "constant worry", "can't stop catastrophizing", "dread and anxiety",
+        "my heart is racing from stress", "spiraling with anxious thoughts"
+      ],
+      "responses": [
+        "That racing-mind feeling is exhausting to sit with. What's the one thing that's taking up the most headspace right now?",
+        "Anxiety has a way of making everything feel urgent at once. Is there something specific that triggered this, or has it been building?",
+        "When your mind won't slow down, even small things can feel huge. What's the worry that keeps coming back the loudest?",
+        "That feeling of dread is so uncomfortable to carry around. Is there something concrete you're anxious about, or is it more of a general unease?",
+        "Overthinking is the mind's way of trying to feel in control of something uncertain. What feels most uncertain for you right now?",
+        "I'm glad you wrote this down — sometimes externalizing the worry helps take its power away a little. What's the worst-case thought you keep returning to?",
+        "Stress like that can make the body feel it as much as the mind. Have you been able to breathe, move, or step away even briefly today?",
+        "Worry tends to shrink when you shine a light on it specifically. What's the most concrete fear underneath all the anxious noise?",
+        "Sometimes anxiety is pointing at something real, sometimes it's just noise. What does it feel like is at the root of it for you?"
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "I feel really sad today", "feeling down", "I've been crying",
+        "feeling hopeless", "everything feels gray", "I'm so unhappy",
+        "can't shake this sadness", "feeling blue", "really low mood",
+        "I'm struggling emotionally", "feel like giving up", "nothing feels good",
+        "deeply unhappy", "feeling miserable", "life feels heavy right now",
+        "I don't see the point", "feeling heartbroken", "grief and sadness",
+        "I'm not okay", "feeling empty inside"
+      ],
+      "responses": [
+        "Thank you for trusting this space with that. Sadness like that deserves to be acknowledged, not rushed past. What's been heaviest on your heart?",
+        "Sometimes everything really does feel gray — and that's real, not imagined. Is there something that brought this on, or has it been creeping up?",
+        "I'm sorry you're carrying that right now. When you say you're struggling — is there something specific that happened, or just a weight that's been building?",
+        "Feeling that low is hard to describe to people who aren't in it. What does the sadness feel like for you — more like grief, or more like emptiness?",
+        "It takes something to write it down when you're feeling like this. What would feel most supportive right now — to be heard, or to think through what's going on?",
+        "Sometimes the heaviness doesn't have an obvious cause and that makes it harder to explain to others. Has anything felt even slightly lighter today?",
+        "I hear you — and I want you to know that feeling this low doesn't mean it will always be this way. Is there someone in your life you feel safe talking to?",
+        "There's a kind of sadness that words barely cover. I'm here to listen as much as you want to share. What feels like it needs to come out most?",
+        "You don't have to make sense of it right now. Sometimes just naming it — 'I feel sad' — is the first honest thing we can do. What's underneath that for you?"
+      ]
+    },
+    {
+      "tag": "angry",
+      "patterns": [
+        "I'm so angry today", "feeling really frustrated", "everything is annoying me",
+        "I lost my temper", "I'm furious", "so irritated by everyone",
+        "angry at myself", "fed up with everything", "rage and frustration",
+        "nothing is going right", "I snapped at someone", "people are driving me crazy",
+        "I feel resentful", "bitter and angry", "I want to scream",
+        "anger is building up", "I'm beyond frustrated", "anger I can't express"
+      ],
+      "responses": [
+        "That frustration sounds intense. Anger usually has something real underneath it — what's actually going on?",
+        "Sometimes rage is the most honest response to something genuinely unfair. What happened that sparked this?",
+        "Anger like that doesn't come from nowhere. Is there someone or something specific that's at the center of it?",
+        "Feeling that wound up is exhausting in its own way. What would it take for you to feel even a little less tense about this?",
+        "It sounds like something pushed you past a tipping point. How long has this been building?",
+        "There's often hurt underneath anger — not always, but often. Does that feel true for you right now?",
+        "Venting anger here is safe. What do you need most — to let it out, or to figure out what to do about it?",
+        "Frustration that big usually means something important to you is being ignored or disrespected. What matters most in this situation?",
+        "That kind of built-up anger is heavy to carry. Is there a way to give yourself some space from whatever triggered this?"
+      ]
+    },
+    {
+      "tag": "lonely",
+      "patterns": [
+        "I feel so lonely", "I have nobody to talk to", "feeling isolated",
+        "disconnected from everyone", "nobody understands me", "feeling invisible",
+        "I miss having people around", "socially isolated", "feeling alone even in a crowd",
+        "no real friends", "relationships feel shallow", "I feel misunderstood",
+        "I'm always the one reaching out", "nobody checks on me", "feeling left out",
+        "I don't belong anywhere", "isolated and disconnected"
+      ],
+      "responses": [
+        "That kind of loneliness — feeling alone even when people are around — is one of the harder ones. When did you last feel genuinely connected to someone?",
+        "Feeling invisible to the people around you is one of the quietest kinds of pain. Is there someone in your life you wish would reach out?",
+        "You're writing here, which means part of you is still reaching for connection — that matters. What kind of connection do you feel most starved of right now?",
+        "There's a difference between being alone and feeling lonely. It sounds like it's the second one. What's been missing?",
+        "That sense of disconnection can make every interaction feel hollow. Has it always felt this way, or is this newer?",
+        "Sometimes loneliness is about quality, not quantity of people. Do you have anyone you feel safe being fully honest with?",
+        "I hear you — and I want you to know that feeling is real and valid, even if people around you don't see it. What would 'feeling connected' actually look like for you?",
+        "The fact that you're always the one reaching out is tiring and demoralizing. Is there someone specific you wish would show up for you?",
+        "Loneliness like this deserves more than just being pushed through. Is there a small step that might bring you a little closer to someone today?"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "I had a great day", "feeling really happy today", "something good happened",
+        "I'm in a good mood", "feeling grateful", "today was wonderful",
+        "really excited about something", "feeling positive", "things are going well",
+        "I feel content", "feeling joyful", "had a lovely day",
+        "something made me smile today", "feeling blessed", "things are looking up",
+        "I accomplished something", "feeling good about myself", "wonderful news"
+      ],
+      "responses": [
+        "That's genuinely lovely to hear — good days deserve to be savored. What made it feel different from usual?",
+        "It's wonderful when things click into place like that. What was the highlight for you?",
+        "I love hearing this. Happiness like that is worth sitting with. What brought it on?",
+        "Something about the way you wrote that feels lighter. What happened that shifted things?",
+        "Those moments of genuine contentment are worth noticing. What contributed most to how you're feeling?",
+        "Good days are worth unpacking too — sometimes they teach us what we need. What did today have that you want more of?",
+        "That kind of joy is worth holding onto. Was there a specific moment or person that stood out?",
+        "It's great to hear you sounding like this. What's one thing you'd want to carry forward from today?",
+        "Happiness deserves as much reflection as the hard days. What made this one feel right?"
+      ]
+    },
+    {
+      "tag": "grateful",
+      "patterns": [
+        "I'm feeling grateful today", "thankful for what I have", "I appreciate the small things",
+        "feeling blessed and grateful", "gratitude for everything", "so much to be thankful for",
+        "grateful for the people in my life", "appreciating life more",
+        "thankful despite the struggles", "finding things to be grateful for",
+        "practicing gratitude", "counting my blessings"
+      ],
+      "responses": [
+        "There's something grounding about gratitude — it doesn't ignore the hard things, it just holds the good ones too. What are you most thankful for today?",
+        "That kind of appreciation for the small things is a real skill. What's something you noticed today that you might have overlooked before?",
+        "Gratitude alongside struggle is especially meaningful. What's one thing that made today feel worth it?",
+        "I love that you're noticing this. What's brought that sense of appreciation on lately?",
+        "Being thankful even when things aren't perfect is one of the more honest kinds of happiness. What's one person or thing at the center of that feeling?"
+      ]
+    },
+    {
+      "tag": "hopeful",
+      "patterns": [
+        "I feel hopeful about the future", "things might get better", "I'm looking forward to something",
+        "starting to feel optimistic", "I see a way forward", "things are improving",
+        "feeling more positive lately", "I have something to look forward to",
+        "progress is happening", "I believe things will work out"
+      ],
+      "responses": [
+        "Hope like that is powerful — what's made the future feel more possible lately?",
+        "That sense of things shifting is really meaningful. What do you think is changing?",
+        "Having something to look forward to changes how everything else feels. What's giving you that lift?",
+        "Optimism that's earned — after going through something hard — is a different kind of strength. What's made you more hopeful?",
+        "It's wonderful to hear that shift in you. What's the thing you're most looking forward to?"
+      ]
+    },
+    {
+      "tag": "overwhelmed",
+      "patterns": [
+        "I feel overwhelmed", "too much going on", "I can't handle everything",
+        "everything is piling up", "I don't know where to start", "drowning in responsibilities",
+        "so much to do and not enough time", "I feel buried", "can't keep up",
+        "juggling too many things", "I'm stretched too thin", "too many demands",
+        "I feel paralyzed by everything I need to do", "nothing feels manageable"
+      ],
+      "responses": [
+        "That feeling of being buried under everything at once is genuinely difficult. What's piling up the most right now?",
+        "When everything feels urgent, nothing gets done — it's a real paralysis. Is there one thing, if you could only do one, that would take the most pressure off?",
+        "Being stretched too thin for too long takes a toll. Where is the heaviest demand coming from?",
+        "Overwhelm often means we're trying to hold too many things at once. What would it feel like to put even one thing down, even temporarily?",
+        "There's something exhausting about not even knowing where to start. If you could slow down for just five minutes — what would you want to tackle first?",
+        "Sometimes the overwhelm is real, and sometimes our mind amplifies it. Which things on your plate are genuinely urgent vs. things that feel urgent?",
+        "It sounds like you've been carrying a lot for a while. Is there anyone who could share some of this load with you?",
+        "The pressure you're feeling is real. What would 'enough' look like — what's the minimum you'd need to get through today?"
+      ]
+    },
+    {
+      "tag": "proud",
+      "patterns": [
+        "I did something I'm proud of", "I accomplished something today", "I feel proud of myself",
+        "I finally did it", "managed to achieve something", "something went really well",
+        "I pushed through something hard", "proud of my progress", "I overcame a challenge",
+        "feeling accomplished", "I succeeded at something difficult"
+      ],
+      "responses": [
+        "That's worth celebrating — what did you do?",
+        "I love hearing this. What made this one feel especially meaningful?",
+        "Feeling proud of yourself is something to sit with, not rush past. What did it take to get there?",
+        "That kind of accomplishment — especially when it's hard-won — is really something. How does it feel now that it's done?",
+        "You should be proud. What's one thing you learned about yourself through this?"
+      ]
+    },
+    {
+      "tag": "relationship",
+      "patterns": [
+        "I had an argument with someone", "relationship problems", "fighting with my partner",
+        "conflict with a friend", "someone hurt my feelings", "feeling let down by someone",
+        "a relationship is draining me", "I miss someone", "having trouble with family",
+        "betrayed by a friend", "feeling disconnected from my partner", "trust issues",
+        "communication problems with someone", "I feel unappreciated"
+      ],
+      "responses": [
+        "Relationship tension like that has a way of coloring everything else. What happened between you two?",
+        "Feeling let down by someone you care about is one of the harder pains. What did you need that wasn't there?",
+        "Arguments often have something underneath them that's harder to say. What do you think the real issue is?",
+        "That feeling of disconnection in a relationship you value is painful. How long has it been building?",
+        "Being unappreciated by someone you give a lot to is demoralizing. Have you been able to tell them how you feel?",
+        "Conflicts with people we care about cut deeper. What outcome would feel like resolution to you?",
+        "Sometimes we miss people even when they're right there. What changed between you?",
+        "Trust, once shaken, takes real work. What do you need from this person to feel okay again?"
+      ]
+    },
+    {
+      "tag": "work_school",
+      "patterns": [
+        "work has been stressful", "struggling with my studies", "difficult project at work",
+        "feeling behind on deadlines", "work pressure is intense", "university is overwhelming",
+        "exam stress", "failing at work", "difficult colleagues", "career worries",
+        "job dissatisfaction", "imposter syndrome at work", "college stress",
+        "assignment pressure", "struggling to focus on work"
+      ],
+      "responses": [
+        "Work stress has a way of following you home. What's been the hardest part lately?",
+        "Feeling behind is incredibly stressful — it's like treading water. What's the most pressing thing you're up against?",
+        "Study pressure can feel relentless. What subject or deadline is weighing on you most?",
+        "Imposter syndrome is exhausting — the gap between how capable you are and how capable you feel. What triggered those feelings?",
+        "Deadline pressure shrinks everything else. Is there one thing you could do today that would give you a small sense of progress?",
+        "Career worry can make you question everything. Is it a specific situation, or a bigger question about direction?",
+        "It sounds like the demands are outpacing your capacity right now. What would feel like relief?",
+        "Difficult colleagues drain so much energy that should go elsewhere. What's happening there?"
+      ]
+    },
+    {
+      "tag": "general",
+      "patterns": [
+        "just writing in my journal", "had an ordinary day", "not much happened today",
+        "just wanted to check in", "nothing specific to share", "a normal day",
+        "feeling kind of neutral", "just venting", "things are okay I guess",
+        "not sure what to write", "just reflecting on my day", "it was an uneventful day"
+      ],
+      "responses": [
+        "Sometimes the ordinary days are the ones worth sitting with most. What's one thing — big or small — that you noticed today?",
+        "There's something grounding about checking in even when nothing dramatic is happening. What's on your mind?",
+        "Neutral can be its own kind of peace. What did today feel like, underneath the ordinary?",
+        "Even quiet days carry something. What would you want to remember about today?",
+        "Sometimes 'okay' is actually a kind of victory. What made it okay rather than difficult?",
+        "The ordinary is where most of life actually happens. What's been taking up your mental space, even quietly?",
+        "I'm glad you showed up here. What's one thing you want to think through, even if it feels small?"
+      ]
+    }
+  ]
+}
